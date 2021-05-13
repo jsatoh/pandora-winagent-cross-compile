@@ -43,5 +43,6 @@ COPY build-pandora-agent.sh /bin/
 LABEL org.label-schema.name="pandora-winagent-cross-compile" \
 	org.label-schema.description="cross compiling environment for Pandora FMS Windows agent" \
 	org.label-schema.vendor="junichi.org" \
-	org.label-schema.build-date="20210513"
+	org.label-schema.build-date="20210513" \
+	org.label-schema.vcs-url-"https://github.com/jsatoh/pandora-winagent-cross-compile"
 CMD ["/bin/build-pandora-agent.sh"]
